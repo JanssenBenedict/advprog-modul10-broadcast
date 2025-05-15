@@ -30,3 +30,15 @@ After properly modifying the port to 8080 on both the client.rs and the server.r
 ![alt text](ScreenshotBroadcast9.png)
 - Client 3 (at port 8080):
 ![alt text](ScreenshotBroadcast10.png)
+
+### Experiment 2.3:
+
+<br><br> I have added my own modifications in order for messages regarding newly established connections on the server and messages regarding newly received messages on the client to also print out text stating that the connection is established on "JanssenBenedict's Komputer". I have also modified the text meant for the message broadcasted to the client, and it now also states the IP and Port of the message sender. Now, a client can see the IP and Port of the other client that's sending messages over the connection.
+- Server:
+![alt text](ScreenshotBroadcast11.png)
+- Client 1:
+![alt text](ScreenshotBroadcast12.png)
+- Client 2:
+![alt text](ScreenshotBroadcast13.png)
+- Client 3:
+![alt text](ScreenshotBroadcast14.png)
